@@ -46,6 +46,12 @@ Key exploratory insights include:
 - Mid-credit score borrowers and early-career employees represent the highest exposure segments
 - Self-employed borrowers exhibit higher risk due to income volatility
 
+## High Risk Flag
+A borrower is High Risk if ANY of the following is true:
+- Credit Score is less than 600, OR
+- Debt-to-Income Ratio is greater than 40%, OR
+- Payment Delays in the last 6 months are more than 2
+
 ---
 
 ## Risk Assessment & Forward-Looking Insights
@@ -81,7 +87,6 @@ These groups are most vulnerable to cash-flow-related repayment issues.
 - Cleaned dataset (`.csv`)
 - Python notebook for data cleaning and preprocessing (`.ipynb`)
 - Power BI dashboard (`.pbix`)
-- Final presentation (`.pptx`)
 
 ---
 
